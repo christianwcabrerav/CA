@@ -31,7 +31,6 @@ CREATE TABLE IF NOT EXISTS `cliente` (
   `apecliente` VARCHAR(45) NULL,
   `dnicliente` VARCHAR(45) NULL,
   `fecnacCliente` VARCHAR(45) NULL,
-  `clientecol` VARCHAR(45) NULL,
   `codTipo` INT NULL,
   PRIMARY KEY (`codcliente`),
   CONSTRAINT `fk_tipo`
